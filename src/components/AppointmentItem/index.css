@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.list {
+  border: 2px #b5b7c4 solid;
+  list-style: none;
+  padding: 10px;
+  width: 30%;
+  border-radius: 15px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.appointment-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #171f46;
+}
+.appointment-date {
+  color: #b7b7c4;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  margin-top: -10px;
+}
+.inner-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.star-btn {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.side {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .list {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .list {
+    width: 50%;
+  }
+}
