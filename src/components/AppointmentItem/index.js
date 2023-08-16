@@ -33,10 +33,10 @@ const AppointmentItem = props => {
           )}
         </button>
       </div>
-      <p className="appointment-date">
-        <p className="side">Date:</p>{' '}
-        <p>{format(new Date(date), 'dd MMMM yyyy, EEEE')}</p>
-      </p>
+      <div className="appointment-date">
+        <p className="side">Date:</p>
+        <p>{date ? format(new Date(date), 'dd MMMM yyyy, EEEE') : ''}</p>
+      </div>
     </li>
   )
 }
