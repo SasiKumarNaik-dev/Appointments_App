@@ -120,7 +120,7 @@
     font-size: 20px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .img-styles {
     height: 200px;
     width: 300px;

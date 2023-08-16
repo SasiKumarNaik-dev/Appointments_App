@@ -57,7 +57,6 @@ class Appointments extends Component {
     } else {
       filteredList = appointmentsList
     }
-    console.log(filteredList)
 
     const clsOn = Starred ? 'clicked' : ''
 
